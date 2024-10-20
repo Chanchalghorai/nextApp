@@ -1,0 +1,167 @@
+main{
+    padding-top:0.1rem;
+    text-align: center;
+    background-color: rgb(46, 75, 75);
+    color:white;
+}
+
+a{
+    text-decoration:none;
+    margin: 1.5rem;
+    color:white;
+
+}
+
+a:hover{
+    color:blue;
+    /* text-decoration: underline; */
+    font-weight: bold;
+}
+
+.inner-main{
+    width:100%;
+    height: 8rem;
+    padding:2.7rem;
+    background: linear-gradient(to right,bisque,purple,skyblue,yellow,white,lime);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-size: 200% auto;
+    animation: animate 20s linear infinite;
+    font-size: 1.4rem;
+}
+@keyframes animate{
+    0%{
+      background-position: 0% 200%;
+    }
+    50%{
+        background-position: 50% 200%;
+    }
+    100%{
+        background-position: 200% 0%;
+    }
+}
+
+.box{
+    display:flex;
+    background-color: hsl(0, 1%, 87%);
+    height:34rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    overflow-x:scroll;
+    scrollbar-width: 1rem;
+    scrollbar-color: none;
+
+}
+.box1{
+   
+    background-color:white;
+    /* height:80rem;
+    width:150rem; */
+    color:black;
+    margin-top: 2rem;
+    /* margin:20rem; */
+    text-align: center;
+    justify-items: center;
+    border-radius: 1rem;
+}
+.img{
+    height:26rem;
+    width:22rem;
+    border-radius: 1rem;
+}
+.box2{
+    padding-top: 2rem;
+    display:flex;
+    justify-content: space-around;
+}
+.img-radius{
+    border-radius: 1rem;
+}
+.inner{
+    margin-top:1.5rem;
+}
+.inner p{
+    margin:0.5rem;
+    text-align:left;
+}
+.button{
+    background-color:blue;
+    color:white;
+    padding:0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 10.5rem;
+}
+.box4{
+    margin-top:1rem;
+    display: flex;
+    color:black;
+    justify-content: space-between;
+}
+.box3{
+    /* height:100rem;
+    width: 90rem; */
+    color:black;
+    padding: 7rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+.box3:hover{
+    background-color: cadetblue;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+h2{
+    font-size: 5rem;
+}
+.pic{
+    opacity:0.4;
+}
+.pic:hover{
+    opacity:1;
+    cursor: pointer;
+}
+.logo {
+    margin-top: 1rem;
+}
+
+.im{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.dis{
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.a{
+    background-color: hsl(0, 1%, 87%);color:black
+}
+
+.box3:hover{
+    background-color: blue;
+    color:white;
+}
+
+
+@media(max-width:800px){
+    .box4{
+        /* display:flex;
+        flex-wrap: wrap; */
+        display:grid;
+        grid-template-columns: auto auto;
+        height: fit-content;
+
+    }
+    .logo{
+        overflow-x: scroll;
+    }
+}

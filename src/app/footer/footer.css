@@ -1,0 +1,33 @@
+footer{
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+.footer_dis{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    font-size: 1.7rem;
+}
+
+.dis{
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.color{
+    background-color: rgb(96 92 92);;
+    padding: 0.5rem;
+}
+.color .arrow{
+    background-color: cadetblue;
+    width:3.7rem;
+}
+/* .co{
+    background-color: white;
+    padding:20rem;
+    color:black;
+    border-radius:2rem;
+} */
