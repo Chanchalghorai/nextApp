@@ -1,4 +1,4 @@
-import Services2 from "./component/servicces";
+import Services2 from "./component/services";
 import Footer from "./footer/footer";
 import "./page.css";
 export default function Home() {
